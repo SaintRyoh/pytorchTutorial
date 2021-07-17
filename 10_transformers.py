@@ -1,3 +1,4 @@
+#! /opt/conda/bin/python
 '''
 Transforms can be applied to PIL images, tensors, ndarrays, or custom data
 during creation of the DataSet
@@ -88,14 +89,16 @@ features, labels = first_data
 print(type(features), type(labels))
 print(features, labels)
 
-print('\nWith Tensor Transform')
+print('
+With Tensor Transform')
 dataset = WineDataset(transform=ToTensor())
 first_data = dataset[0]
 features, labels = first_data
 print(type(features), type(labels))
 print(features, labels)
 
-print('\nWith Tensor and Multiplication Transform')
+print('
+With Tensor and Multiplication Transform')
 composed = torchvision.transforms.Compose([ToTensor(), MulTransform(4)])
 dataset = WineDataset(transform=composed)
 first_data = dataset[0]

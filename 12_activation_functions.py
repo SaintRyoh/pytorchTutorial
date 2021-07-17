@@ -1,3 +1,4 @@
+#! /opt/conda/bin/python
 # output = w*x + b
 # output = activation_function(output)
 import torch

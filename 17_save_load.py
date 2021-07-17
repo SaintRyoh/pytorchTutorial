@@ -1,3 +1,4 @@
+#! /opt/conda/bin/python
 import torch
 import torch.nn as nn
 
@@ -133,4 +134,3 @@ model.to(device)
 # This loads the model to a given GPU device. 
 # Next, be sure to call model.to(torch.device('cuda')) to convert the model’s parameter tensors to CUDA tensors
 """
-

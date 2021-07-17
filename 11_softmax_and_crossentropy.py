@@ -1,3 +1,4 @@
+#! /opt/conda/bin/python
 import torch
 import torch.nn as nn
 import numpy as np
@@ -138,5 +139,3 @@ class NeuralNet2(nn.Module):
 
 model = NeuralNet2(input_size=28*28, hidden_size=5, num_classes=3)
 criterion = nn.CrossEntropyLoss()  # (applies Softmax)
-
-

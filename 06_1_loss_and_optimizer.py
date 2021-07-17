@@ -1,3 +1,4 @@
+#! /opt/conda/bin/python
 # 1) Design model (input, output, forward pass with different layers)
 # 2) Construct loss and optimizer
 # 3) Training loop

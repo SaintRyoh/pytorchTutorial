@@ -1,3 +1,4 @@
+#! /opt/conda/bin/python
 import torch
 import torchvision
 from torch.utils.data import Dataset, DataLoader

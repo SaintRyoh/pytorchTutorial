@@ -1,3 +1,4 @@
+#! /opt/conda/bin/python
 import numpy as np 
 
 # Compute every step manually
