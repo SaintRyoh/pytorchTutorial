@@ -20,3 +20,10 @@ PyTorch Beginner Tutorials from my YouTube channel.
   15. Transfer Learning
   16. Tensorboard
   17. Save and Load Models
+
+<!-- Common Issues -->
+
+fatal: cannot chdir to 'C:/Users/x/x/x/pytorchTutorial': No such file or directory
+https://github.com/microsoft/vscode-remote-release/issues/3262
+open .git/config
+remove worktree line
