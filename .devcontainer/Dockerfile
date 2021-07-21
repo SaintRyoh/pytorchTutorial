@@ -13,3 +13,4 @@ FROM pytorch/pytorch:latest
 #     && apk add --no-cache <your-package-list-here>
 RUN apt-get update
 RUN apt-get -y install git
+RUN conda create --name condaPytorch --file condaTutorialDependencies.yml
